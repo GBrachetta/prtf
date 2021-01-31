@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Guillermo Brachetta', // e.g: 'Name | Developer'
-  lang: 'en', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Guillermo Brachetta | Developer',
+  lang: 'en',
+  description: 'Website of Guillermo Brachetta',
 };
 
 // HERO DATA
@@ -22,7 +22,7 @@ export const aboutData = {
     'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, placeat, voluptatibus quisquam adipisci repudiandae neque ad maxime temporibus similique enim eveniet, doloribus corrupti doloremque itaque? Soluta nisi tempore doloremque voluptates.',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online', // if no resume, the button will not show up
+  // resume: 'https://www.resumemaker.online',
 };
 
 // PROJECTS DATA
