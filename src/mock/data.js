@@ -1,4 +1,5 @@
 import { nanoid } from 'nanoid';
+import cv from '../images/cv.pdf';
 
 // HEAD DATA
 export const headData = {
@@ -19,10 +20,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, placeat, voluptatibus quisquam adipisci repudiandae neque ad maxime temporibus similique enim eveniet, doloribus corrupti doloremque itaque? Soluta nisi tempore doloremque voluptates.',
-  paragraphTwo: '',
-  paragraphThree: '',
-  // resume: 'https://www.resumemaker.online',
+    'I love to create, to sort challenges, to defy limitations, to conquer tenacious obstacles, to express myself, to learn.',
+  paragraphTwo:
+    'I found in development the space to exploit these passions. Through React. Through Next.js. Through Django and the intricaties  of databases.',
+  paragraphThree: 'I love the freedom it gives me.',
+  resume: cv,
 };
 
 // PROJECTS DATA
@@ -67,8 +69,8 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
+  cta: 'Shall we work together? Awesome!',
+  btn: "Let's talk",
   email: 'brachetta@me.com',
 };
 
