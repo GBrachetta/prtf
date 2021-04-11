@@ -11,8 +11,8 @@ export const headData = {
 export const heroData = {
   title: "Hello, I'm",
   name: 'Guillermo Brachetta.',
-  subtitle: 'Developer.',
-  cta: '',
+  subtitle: 'Web Developer.',
+  cta: 'Know More',
 };
 
 // ABOUT DATA
@@ -27,6 +27,15 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'project4.jpg',
+    title: 'White Queen',
+    info: 'SPA built with Next.js.',
+    info2: 'Branding, development, contact form, for a Dutch company.',
+    url: 'https://www.whitequeen.nl/',
+    // repo: 'https://github.com/GBrachetta/Musical-Dice',
+  },
   {
     id: nanoid(),
     img: 'project.jpg',
