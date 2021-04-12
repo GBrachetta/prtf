@@ -36,7 +36,6 @@ export const projectsData = [
     info: 'SPA built with Next.js.',
     info2: 'Branding, development, contact form, for a Dutch company.',
     url: 'https://www.whitequeen.nl/',
-    // repo: 'https://github.com/GBrachetta/Musical-Dice',
   },
   {
     id: nanoid(),
@@ -82,11 +81,6 @@ export const footerData = {
       name: 'twitter',
       url: 'https://twitter.com/brachetta',
     },
-    // {
-    //   id: nanoid(),
-    //   name: 'codepen',
-    //   url: '',
-    // },
     {
       id: nanoid(),
       name: 'linkedin',

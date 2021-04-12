@@ -21,9 +21,9 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://github.com/gbrachetta'}
+              href={`mailto:${email}`}
             >
-              {btn || "Let's Talk"}
+              {btn}
             </a>
           </div>
         </Fade>
