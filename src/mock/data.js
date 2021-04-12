@@ -3,7 +3,7 @@ import cv from '../images/cv.pdf';
 
 // HEAD DATA
 export const headData = {
-  title: 'Guillermo Brachetta | Developer',
+  title: 'Guillermo Brachetta | Web Developer',
   lang: 'en',
   description: 'Website of Guillermo Brachetta',
 };
@@ -98,9 +98,4 @@ export const footerData = {
       url: 'https://github.com/GBrachetta',
     },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
