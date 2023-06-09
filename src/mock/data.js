@@ -55,15 +55,15 @@ export const projectsData = [
     url: 'https://guillermo-brachetta.herokuapp.com/',
     repo: 'https://github.com/GBrachetta/guillermo',
   },
-  {
-    id: nanoid(),
-    img: 'project3.jpg',
-    title: 'Parfumier',
-    info: 'A perfumes database with reviews, auth and profile management.',
-    info2: 'Written in Flask and MongoDB.',
-    url: 'https://parfumier.herokuapp.com/perfumes',
-    repo: 'https://github.com/GBrachetta/Parfumier',
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'project3.jpg',
+  //   title: 'Parfumier',
+  //   info: 'A perfumes database with reviews, auth and profile management.',
+  //   info2: 'Written in Flask and MongoDB.',
+  //   url: 'https://parfumier.herokuapp.com/perfumes',
+  //   repo: 'https://github.com/GBrachetta/Parfumier',
+  // },
 ];
 
 // CONTACT DATA
