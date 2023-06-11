@@ -55,6 +55,15 @@ export const projectsData = [
     url: 'https://guillermo-brachetta.herokuapp.com/',
     repo: 'https://github.com/GBrachetta/guillermo',
   },
+  {
+    id: nanoid(),
+    img: 'project5.jpg',
+    title: 'CarHub',
+    info: 'A mock portal for a car hire shop',
+    info2: 'Developed with Nextjs 13.',
+    url: 'https://carhub-three.vercel.app/',
+    repo: 'https://github.com/GBrachetta/car-showcase',
+  },
   // {
   //   id: nanoid(),
   //   img: 'project3.jpg',
