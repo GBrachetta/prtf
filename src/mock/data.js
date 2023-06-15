@@ -57,6 +57,14 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'project6.jpg',
+    title: 'Nina Przewoźniak',
+    info: "Nina Przewoźniak's website",
+    info2: 'Developed with Nextjs, TailwindCSS and Framer Motion.',
+    url: 'https://nina-przewozniak.com',
+  },
+  {
+    id: nanoid(),
     img: 'project5.jpg',
     title: 'CarHub',
     info: 'A mock portal for a car hire shop',
