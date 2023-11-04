@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-import cv from '../images/cv.pdf';
+import cv from '../images/cv-gbrachetta.pdf';
 
 // HEAD DATA
 export const headData = {
@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphOne:
     'I love to create, to sort challenges, to defy limitations, to conquer tenacious obstacles, to express myself, to learn.',
   paragraphTwo:
-    'I found in development the space to exploit these passions. Through React. Through Next.js. Through Django and the intricaties  of databases.',
+    'I found in development the space to exploit these passions. Through React. Through Next.js. Through Django and the intricacies  of databases.',
   paragraphThree: 'I love the freedom it gives me.',
   resume: cv,
 };
@@ -63,24 +63,6 @@ export const projectsData = [
     info2: 'Developed with Nextjs, TailwindCSS and Framer Motion.',
     url: 'https://nina-przewozniak.com',
   },
-  // {
-  //   id: nanoid(),
-  //   img: 'project5.jpg',
-  //   title: 'CarHub',
-  //   info: 'A mock portal for a car hire shop',
-  //   info2: 'Developed with Nextjs 13.',
-  //   url: 'https://carhub-three.vercel.app/',
-  //   repo: 'https://github.com/GBrachetta/car-showcase',
-  // },
-  // {
-  //   id: nanoid(),
-  //   img: 'project3.jpg',
-  //   title: 'Parfumier',
-  //   info: 'A perfumes database with reviews, auth and profile management.',
-  //   info2: 'Written in Flask and MongoDB.',
-  //   url: 'https://parfumier.herokuapp.com/perfumes',
-  //   repo: 'https://github.com/GBrachetta/Parfumier',
-  // },
 ];
 
 // CONTACT DATA
