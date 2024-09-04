@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-import cv from '../images/cv-gbrachetta.pdf';
+import cv from '../images/cv-guillermo.pdf';
 
 // HEAD DATA
 export const headData = {
