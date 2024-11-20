@@ -48,6 +48,14 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'project7.png',
+    title: 'PingPanda',
+    info: 'A Modern Fullstack Event Monitoring SaaS via Discord.',
+    info2: 'Next.js, Clerk, Stripe, Discord API, Neon, Prisma ORM.',
+    url: 'https://saas-josh.vercel.app/',
+  },
+  {
+    id: nanoid(),
     img: 'project2.jpg',
     title: 'The Artist',
     info: 'My portfolio website for my activities as a musician.',
